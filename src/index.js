@@ -13,5 +13,5 @@ app.use(logger("dev"));
 
 // register routes
 const authRoutes = require("./api/routes/auth");
-app.use("/", authRoutes);
+app.use("/auth", authRoutes);
 module.exports = app;
