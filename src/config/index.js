@@ -5,6 +5,9 @@ module.exports = {
 	},
 	mongo: {
 		url:
-			"mongodb+srv://thetinygoat:bkqtLBP4mtYughg!@cluster0-q32qu.mongodb.net/test?retryWrites=true&w=majority"
+			"mongodb+srv://thetinygoat:bkqtLBP4mtYughg!@cluster0-q32qu.mongodb.net/zfunds-user?retryWrites=true&w=majority"
+	},
+	msg91: {
+		key: "281947A3cwsoqq5d0b590c"
 	}
 };
